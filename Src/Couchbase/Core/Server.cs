@@ -886,7 +886,7 @@ namespace Couchbase.Core
 
                     if (_heartBeatTimer != null)
                     {
-                        Console.WriteLine("Disposing _heartBeatTimer!!!!!!!!!!!")
+                        Console.WriteLine("Disposing _heartBeatTimer!!!!!!!!!!!");
                         Console.WriteLine("StackTrace: '{0}'", Environment.StackTrace);
                         _heartBeatTimer.Dispose();
                     }
